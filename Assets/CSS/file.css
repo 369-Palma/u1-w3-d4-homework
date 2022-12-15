@@ -11,7 +11,7 @@ body {
   text-shadow: 2px 2px 2px 2px 2px;
   padding-left: 1em;
 }
-#Cornice {
+.Cornice {
   border-color: rgb(51, 155, 103);
   border-radius: 0.5em;
 }
@@ -22,4 +22,6 @@ body {
   text-shadow: 2px 2px 2px 2px 2px;
   border-radius: 0.5em;
   height: 2em;
+}
+.List-task {
 }
