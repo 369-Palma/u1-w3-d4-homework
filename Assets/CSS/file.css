@@ -1,0 +1,25 @@
+body {
+  display: block;
+  text-align: center;
+  background-color: rgb(24, 135, 134);
+}
+#Aggiungi {
+  background-color: rgb(249, 249, 125);
+  text-shadow: 2px 2px 2px 2px 2px;
+  border-radius: 0.5em;
+  height: 1.6em;
+  text-shadow: 2px 2px 2px 2px 2px;
+  padding-left: 1em;
+}
+#Cornice {
+  border-color: rgb(51, 155, 103);
+  border-radius: 0.5em;
+}
+#bottone {
+  background-color: rgb(64, 232, 111);
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: darkgreen;
+  text-shadow: 2px 2px 2px 2px 2px;
+  border-radius: 0.5em;
+  height: 2em;
+}
