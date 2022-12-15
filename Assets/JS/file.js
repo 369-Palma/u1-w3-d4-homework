@@ -9,4 +9,8 @@ AggiungiTask.addEventListener("onclick", (event) => {
   nuovoDiv.innerHTML = valore.InputField;
   document.getElementsByClassName("contenitore").appendChild(nuovoDiv);
   console.log(AggiungiTask);
+  nuovoDiv.onclick = AggiungiTask;
 });
+const eliminaSelezionati = () => {
+  const list = document.get;
+};
