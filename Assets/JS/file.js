@@ -3,10 +3,10 @@
 }; */
 
 const AggiungiTask = document.getElementById("bottone");
-AggiungiTask.addEventListener("onclick", function () {
+AggiungiTask.addEventListener("onclick", (event) => {
   const nuovoDiv = document.createElement("div");
-  nuovoDiv.classList.add("Cornice");
+  nuovoDiv.classList.add("contenitore");
   nuovoDiv.innerHTML = valore.InputField;
-  document.getElementById("Cornice").appendChild(nuovoDiv);
+  document.getElementsByClassName("contenitore").appendChild(nuovoDiv);
   console.log(AggiungiTask);
 });
