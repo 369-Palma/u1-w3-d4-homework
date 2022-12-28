@@ -11,7 +11,12 @@
     <div class="Cornice">
       <div class="contenitore">
         <h1>To do list</h1>
-        <input type="text" id="Aggiungi" placeholder="Write here your task" />
+        <input
+          type="text"
+          id="Aggiungi"
+          placeholder="Write here your task"
+          onkeyup="tastoEnter(event)"
+        />
         <div id="lista-items"></div>
       </div>
       <button id="bottone">Add</button>

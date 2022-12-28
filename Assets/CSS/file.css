@@ -10,6 +10,7 @@ h1 {
   font-weight: 700;
 }
 #Aggiungi {
+  width: auto;
   margin-right: 25%;
   margin-left: 25%;
   background-color: rgb(249, 249, 125);
