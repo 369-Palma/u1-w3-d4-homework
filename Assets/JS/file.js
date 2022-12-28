@@ -15,6 +15,6 @@ window.onload = () => {
  */
 
   const contenitoreLista = document.getElementById("lista-items");
-  contenitoreLista.innerHTML += "<div class="lista-items">Task 1</div>";
-  contenitoreLista.innerHTML += "<div>"Task 2"</div>";
+  contenitoreLista.innerHTML += "<div class=`lista-items`> Task 1 </div>";
+  contenitoreLista.innerHTML += "<div class=`lista-items`> Task 2 </div>";
 };
